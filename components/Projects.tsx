@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section className='md:w-3/5 mx-auto px-6 md:px-0 pb-20'>
       <h2 className='text-xl pt-10 font-semibold'>Projects</h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 md:w-4/5 gap-4 mt-5 sm:w-9/10 w-full '>
+      <div className='grid grid-cols-1 md:grid-cols-2 md:w-full gap-4 mt-5 sm:w-9/10 w-full '>
         {projects.map((project) => (
           <div key={project.title} className='border rounded-xl p-4 bg-white'>
             <div className='md:flex items-center justify-between'>
